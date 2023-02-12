@@ -1,0 +1,25 @@
+.season-container {
+    background-color: var(--white);
+}
+
+.season-banner1, .season-banner2 {
+    img {
+        width: 100%;
+        height: 465px;
+    }
+}
+
+.season-banner2 {
+    margin-top: 26px;
+}
+
+.mining-season--title, 
+.prepare-season--title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.list-mining-pro, 
+.list-prepare-pro {
+    margin: 0 60px;
+}

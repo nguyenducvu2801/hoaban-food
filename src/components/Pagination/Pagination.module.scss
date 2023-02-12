@@ -1,0 +1,48 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.item-paginate {
+    display: flex;
+    justify-content: center;
+    background-color: var(--white);
+
+    a, .item-paginate-icon-left, .item-paginate-icon-right {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        border: 1px solid var(--text);
+        color: var(--text);
+        background-color: var(--white);
+        font-weight: 600;
+        cursor: pointer;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 5px; 
+
+        &:hover {
+            border: none;
+            background-color: var(--primary);
+            color: var(--white);
+            animation: fadeIn ease 1s;
+        }
+    }
+
+    a.item-page-link {
+        background-color: var(--primary);
+        border: none;
+        color: var(--white);
+
+        &:hover {
+            cursor: text;
+            animation: none;
+        }
+    }
+}

@@ -1,0 +1,73 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.product-container {
+    background-color: var(--white);
+}
+
+.main__pro-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pro-page {
+    margin: 20px 0 20px 60px;
+    padding-top: 6px;
+    text-transform: uppercase;
+    color: #333;
+    font-weight: 600;
+
+    .slash {
+        color: rgba(102, 102, 102, 0.7);
+    }
+}
+
+.pro-name-link-home {
+    color: #333;
+}
+
+.pro-name-link-page {
+    color: rgba(102, 102, 102, 0.7);
+    font-weight: 500;
+
+    &:hover {
+        color: #333;
+    }
+}
+
+.pro-filter {
+    margin-right: 60px;
+    display: flex;
+    text-align: center;
+}
+
+.pro-filter-result {
+    padding-top: 6px;
+}
+
+.pro-filter-select {
+    margin-left: 10px;
+    font-size: 1.6rem;
+    color: #333;
+    padding: 6px 8px;
+    outline: none;
+    border-radius: 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 -14px 10px 0 rgba(0, 0, 0, 0.02);
+
+    &:hover {
+        box-shadow: none;
+    }
+}
+
+.list-pro{
+    margin: 0 60px;
+}
+
